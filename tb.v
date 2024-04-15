@@ -14,7 +14,7 @@ module tb #(parameter N = 32);
       b <= N'({$urandom(), $urandom});
       #10;
       assert (product == a * b) else
-        $display("%d * %d = %d", a, b, product);
+        $error("%d * %d = %d", a, b, product);
     end
     $display("[PASSED] Ran %0d tests on the Dadda multiplier.", NUM_TESTS);
     $finish;
