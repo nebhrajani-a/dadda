@@ -1,1 +1,2 @@
-make -B run_multiplier_tb NUM_BITS=32
+To generate Verilog and run a few random tests:
+  make -B run_multiplier_tb NUM_BITS=32
