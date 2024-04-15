@@ -183,7 +183,6 @@ module {verilog_module_name} (
         self.__handle.close()
 
 
-# Make CLI, then make Makefile to link Python to an iVerilog TB
 if __name__ == "__main__":
     if __debug__:
         np.set_printoptions(threshold=np.inf)
